@@ -1,4 +1,4 @@
-const apiKey = "ffe777c9e35a9f20d404b16dd090510b";
+const apiKey = "CREATE YOUR OWN API KEY ";
 
 const searchBtn = document.querySelector(".search-btn");
 const locationBtn = document.querySelector(".location-btn");
