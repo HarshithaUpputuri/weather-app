@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weather Forecasting Application</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Weather Forecasting Application</h1>
+
+    <div class="top-section">
+  <div class="weather-input">
+    <h3>Enter a City Name</h3>
+    <input type="text" class="city-input" placeholder="E.g., New York, London" />
+    <button class="search-btn">Search</button>
+    <div class="separator">or</div>
+    <button class="location-btn">Use Current Location</button>
+  </div>
+
+  <div class="current-weather">
+    <h2 class="city-name">City Name (Date)</h2>
+    <div class="details">
+      <h6>Temperature: __°C</h6>
+      <h6>Wind: __ m/s</h6>
+      <h6>Humidity: __%</h6>
+    </div>
+    <div class="icon">
+      <img class="weather-icon" src="" alt="weather icon" />
+    </div>
+  </div>
+</div>
+
+<div class="weather-data">
+  <div class="days-forecast">
+    <h2>5-Day Forecast</h2>
+    <ul class="weather-cards">
+      <!-- Cards inserted by JS -->
+    </ul>
+  </div>
+</div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
