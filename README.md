@@ -33,8 +33,8 @@ The Weather Forecasting Application is built using HTML, CSS, and JavaScript. It
 - Fetch API with `async/await`
 
 ## Project Structure
-weather-app/
-│
+weather-app
+
 ├── index.html # Main structure of the application
 
 ├── style.css # Styling and responsive layout
